@@ -1,0 +1,24 @@
+{
+  "name": "Workplace",
+  "version": "0.1.0",
+  "description": "Connect everyone in your company and turn ideas into action. Through group discussion, a personalised News Feed, and voice and video calling, work together and get more done. Workplace is an ad-free space, separate from your personal Facebook account.",
+  "main": "index.js",
+  "author": "tuantranf",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.facebook.com/chat/t/'",
+    "serviceName": "Workplace",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasedirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {},
+    "openDevTools": false,
+    "wording": {
+        "url": "facebook.com",
+        "team": "Workplace"
+    }
+  }
+}
